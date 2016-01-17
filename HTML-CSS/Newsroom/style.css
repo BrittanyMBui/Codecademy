@@ -1,0 +1,159 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  background: #f2f2f2;
+}
+
+body {
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Header */
+.header {
+  background: black;
+  height: 70px;
+}
+
+.header img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+
+.search-form input {
+  margin-top: 20px;
+  display: inline-block;
+  border: 0px;
+  border-bottom: 2px solid white;
+  background: transparent;
+}
+
+button {
+  color: white;
+  display: inline-block;
+  border: 0;
+  background: transparent;
+  border-bottom: 2px solid blue;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+/* Menu */
+.menu {
+  background: #152230;
+}
+
+.menu ul li a {
+  color: white;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.active {
+  background: #0393ff;
+}
+
+.menu ul li a:hover {
+  background: #0393ff;
+  color: white;
+}
+
+/* Main */
+.main {
+  color: white;
+  height: 500px;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.date {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.main h1 {
+  font-size: 72px;
+}
+
+.main h1 span {
+  border-bottom: 5px solid blue;
+}
+
+.main h3 {
+  font-size: 26px;
+}
+
+/* Supporting */
+
+.supporting .container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.supporting h1 {
+  font-size: 20px;
+}
+
+.supporting h2 {
+  font-size: 16px;
+}
+
+.supporting ul li span {
+  border-bottom: 2px solid blue;
+}
+
+.supporting .row .col-md-8 {
+  padding: 20px 40px 40px 40px;
+  background: white;
+}
+
+.supporting .row .col-md-4 {
+  background: #152230;
+  color: white;
+  padding: 20px 40px 40px 40px;
+}
+
+.col-md-12 img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* Footer */
+.footer {
+  background: black;
+  padding: 40px 0;
+}
+
+.footer ul {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+  margin: 0 40px 0 0;
+}
+
+.footer ul li a {
+  color: white;
+}
+
+.footer p {
+  color: white;
+  float: right;
+  margin: 0 0 10px;
+}
