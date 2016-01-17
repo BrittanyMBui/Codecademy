@@ -1,0 +1,80 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  background: #30627E;
+  height: 60px;
+}
+
+.header .main {
+  background: #e52364;
+  font-size: 28px;
+  
+}
+
+.nav li {
+  margin-top: 15px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+.nav li:hover {
+  color: black;
+}
+
+.jumbotron {
+  color: #e52364;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/adoptly/bg.jpg) no-repeat center center;
+  height: 500px;
+  font-size: 63px;
+}
+
+p {
+  margin: 0 0 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.supporting {
+  display: inline-block;
+  text-align: center;
+  margin: 0px;
+}
+
+.supporting h1 {
+  margin-top: 0;
+}
+
+.btn {
+  border: 1px solid black;
+  padding: 10px 80px;
+  color: gray;
+}
+
+.footer {
+  background: #e52364;
+}
+
+.menu ul li {
+  display: inline-block;
+  color: white;
+}
+
+
+@media (max-width: 500px) {
+  ul li {
+    width: 100%;
+  }
+}
